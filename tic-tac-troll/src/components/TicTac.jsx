@@ -348,7 +348,7 @@ const TicTac = () => {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100 p-4 relative">
+    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100 p-2 relative">
       {/* Popup overlay */}
       {showPopup && (
         <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
